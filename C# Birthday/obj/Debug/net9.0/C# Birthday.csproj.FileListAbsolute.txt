@@ -1,0 +1,14 @@
+F:\files\Activity\C# Birthday\bin\Debug\net9.0\C# Birthday.exe
+F:\files\Activity\C# Birthday\bin\Debug\net9.0\C# Birthday.deps.json
+F:\files\Activity\C# Birthday\bin\Debug\net9.0\C# Birthday.runtimeconfig.json
+F:\files\Activity\C# Birthday\bin\Debug\net9.0\C# Birthday.dll
+F:\files\Activity\C# Birthday\bin\Debug\net9.0\C# Birthday.pdb
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.GeneratedMSBuildEditorConfig.editorconfig
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.AssemblyInfoInputs.cache
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.AssemblyInfo.cs
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.csproj.CoreCompileInputs.cache
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.dll
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\refint\C# Birthday.dll
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.pdb
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\C# Birthday.genruntimeconfig.cache
+F:\files\Activity\C# Birthday\obj\Debug\net9.0\ref\C# Birthday.dll

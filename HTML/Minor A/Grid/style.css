@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(94, 255, 0);
+}
+
+.main{
+    display: grid;
+    background-color: black;
+    justify-self: center;
+    grid-template-columns: auto auto auto auto;
+    height: auto;
+    width: auto;
+}
+
+.main2{
+    display: grid;
+    background-color: black;
+    justify-self: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: 110px 1fr;
+    height: auto;
+    width: auto;
+} 
+
+.main3{
+    display: grid;
+    background-color: black;
+    justify-self: center;
+    grid-template-columns: auto;
+    height: auto;
+    width: auto;
+}
+
+
+.box1 {
+    display: grid;
+    background-color: rgb(0, 26, 255);
+    height: 100px;
+    width: 399px;
+    margin: 5px;
+}
+
+.box2 {
+    display: grid;
+    background-color: rgb(255, 6, 6);
+    height: 100px;
+    width: 117px;
+    margin: 5px;
+}
+
+.box3 {
+    display: grid;
+    background-color: rgb(255, 6, 180);
+    height: 100px;
+    width: 117px;
+    margin: 5px;
+}
+
+.box4 {
+    display: grid;
+    background-color: rgb(114, 201, 0);
+    height: 100px;
+    width: 117px;
+    margin: 5px;
+}
+
+.box5 {
+    display: grid;
+    background-color: rgb(255, 209, 6);
+    height: 100px;
+    width: 620px;
+    margin: 5px;
+}
+
+.box6 {
+    display: grid;
+    background-color: rgb(205, 6, 255);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+}
+
+.box7 {
+    display: grid;
+    background-color: rgb(6, 205, 255);
+    grid-row: 2;
+    grid-column: 1;
+    height: 350px;
+    width: 100px;
+    margin: 5px;
+}
+
+.box8 {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 510px;
+    margin-top: 5px;
+    margin-left: 115px;
+}
+
+.box9 {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    background-color: rgb(255, 255, 255);
+    height: 190px;
+    width: 510px;
+    margin-top: 165px;
+    margin-left: 115px;
+}
+
+.box10 {
+    display: grid;
+    background-color: whitesmoke;
+    grid-column: 2;
+    grid-row: 2;
+    height: 150px;
+    width: 150px;
+    margin-top: 55px;
+    margin-left: 5px;
+}
+
+.box11 {
+    display: grid;
+    background-color: darkmagenta;
+    grid-column: 2;
+    grid-row: 2;
+    height: 140px;
+    width: 150px;
+    margin-top: 215px;
+    margin-left: 5px;
+}
+
+.box12 {
+    display: grid;
+    background-color: indigo;
+    height: 200px;
+    width: 780px;
+    margin: 5px;
+}

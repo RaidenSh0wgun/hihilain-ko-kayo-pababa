@@ -1,0 +1,14 @@
+F:\files\Activity\CSharp\palindome\bin\Debug\net9.0\palindome.exe
+F:\files\Activity\CSharp\palindome\bin\Debug\net9.0\palindome.deps.json
+F:\files\Activity\CSharp\palindome\bin\Debug\net9.0\palindome.runtimeconfig.json
+F:\files\Activity\CSharp\palindome\bin\Debug\net9.0\palindome.dll
+F:\files\Activity\CSharp\palindome\bin\Debug\net9.0\palindome.pdb
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.GeneratedMSBuildEditorConfig.editorconfig
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.AssemblyInfoInputs.cache
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.AssemblyInfo.cs
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.csproj.CoreCompileInputs.cache
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.dll
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\refint\palindome.dll
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.pdb
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\palindome.genruntimeconfig.cache
+F:\files\Activity\CSharp\palindome\obj\Debug\net9.0\ref\palindome.dll

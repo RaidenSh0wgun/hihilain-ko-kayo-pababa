@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --red: #E50914;
+    --black: #000000;
+    --light-color: #181818;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+}
+
+body {
+    background: yellow;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--black);
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    box-shadow: var(--box-shadow);
+}
+
+header .logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+header .navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+header .navbar a {
+    font-size: 1.7rem;
+    border-radius: 2rem;
+    padding: .5rem 1.5rem;
+    color: #fff;
+}
+
+header .navbar a.active{
+    cursor: pointer;
+    color: #fff;
+    background: var(--red);
+}
+header .navbar a:hover {
+    background: #fff;
+    color: darkred;
+}
+
+header .icons i {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 50%;
+    background: var(--red);
+}
+
+header .icons i:hover {
+    background: darkred;
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-form input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+}
+
+.search-form button {
+    padding: 0.5rem 1rem;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background: var(--red);
+    color: white;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background: darkred;
+}
+
+.home {
+    padding: 8rem 5% 4rem;
+    background: #111;
+    min-height: 100vh;
+}
+
+.section-title {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.manga-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.manga-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin: auto;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.manga-card:hover {
+    transform: translateY(-5px);
+}
+
+.manga-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.manga-card h3 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.manga-card p {
+    font-size: 1.4rem;
+    color: #ccc;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--red);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+    background: darkred;
+    transform: translateY(-2px);
+}
+
+.manga-container {
+    display: flex;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 50px auto;
+    align-items: flex-start;
+}
+
+.manga-container img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.manga-details {
+    flex: 1;
+}
+
+.manga-details h1 {
+    margin-bottom: 0.5rem;
+}
+
+.manga-details .genre {
+    font-size: 1.6rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+
+.manga-details p {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.chapter-list a {
+    display: block;
+    padding: 8px;
+    font-size: 1.4rem;
+    background: var(--red);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.chapter-list a:hover {
+    background: darkred;
+}
+
+.panel-container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chapter-strip {
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.chapter-strip h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--red);
+}
+
+.chapter-strip img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.chapter-strip p {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.chapter-strip hr {
+    border: 0.5px solid #555;
+    margin: 20px 0;
+}
+
+a.back {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 15px;
+    background: gray;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+a.back:hover {
+    background: #444;
+}
+
+@media(max-width: 768px){
+    header .icons #menu-bars {
+        display: inline-block;
+    }
+
+    @media(max-width: 768px){
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--black);
+        flex-direction: column;
+        gap: 1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path .2s ease-in-out;
+    }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem 0;
+        font-size: 2rem;
+        background: var(--red);
+        border-radius: 1rem;
+        text-align: center;
+    }
+
+    .manga-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .manga-container img {
+        width: 80%;
+        height: auto;
+    }
+
+    .manga-details {
+        text-align: center;
+    }
+}

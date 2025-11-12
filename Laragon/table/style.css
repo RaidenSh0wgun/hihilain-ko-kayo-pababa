@@ -1,0 +1,48 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    background: url(https://i.pinimg.com/originals/15/e0/0c/15e00c78bcab4be554893f419240ad6b.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: sans-serif;
+    color:white;
+}
+        
+.header {
+    display: grid;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.box {
+    text-align: center;
+    margin: 15px;
+    width: 150px;
+}
+.number, .max {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+    float: left;
+    width: 200px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+th {
+    font-weight: bold;
+}
+.clear {
+    clear: both;
+}
